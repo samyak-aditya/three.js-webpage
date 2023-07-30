@@ -1,0 +1,11 @@
+.oldmac{
+    height: 90vh;
+    
+    width: 160px;
+    align-items: center;
+    justify-items: end;
+    z-index: 50;
+    position: relative;
+    top: -350px;right:-150px;
+    
+}

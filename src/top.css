@@ -1,0 +1,12 @@
+.Top{
+    height: 100vh;
+    
+    width: 180px;
+    align-items: center;
+    justify-items: end;
+    
+    position: relative;
+    top: 40px;right:5px;
+    ;
+    
+}

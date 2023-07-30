@@ -1,38 +1,260 @@
-.App {
-  text-align: center;
+.app{
+  position: absolute;
+  display:flex;
+  z-index: 10;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  padding: 20px;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.heading{
+  font-family: monospace;
+  justify-content: left;
+  padding : 5px;
+  font-weight: 100;
+  font-size: x-large;
+}
+.line{
+  background-color: #c7c7c7;
+  width: 150s0px;
+  height: 3px;
+  
+}
+.font1{
+  position:relative;
+  top:40px;
+  padding: 20px ;
+  color: #a1a1a1;
+  opacity: 100%;
+}
+
+
+
+.font3{
+  position:relative;
+
+  top: 20px;
+  color: #a1a1a1;
+  padding: 20px ;
+
+}
+
+.circle1{
+  height: 625px;
+  width: 625px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle2{
+  height: 525px;
+  width: 525px;
+  background-color: #ededed;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top:10px; right:-80px;
+}
+.circle2:hover{
+  .Bdot1{
+    content: "hey";
+    width:8px;
+    height:8px;
+    background:rgb(0, 0, 0);
+    border-radius:50%;
+    position:absolute;
+    top:200px; bottom:0; left:-289px;right:100px;
+    overflow:hidden;
+    margin:auto;
+    animation: Bdot1 0.5s linear 1 forwards ;
+   
   }
+
+  
+  background-color: #ededed;
+  border: 1px solid ;
+  border-color: #dcdcdc;
+  position: relative;
+  z-index: 5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle3{
+  height: 425px;
+  width: 425px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top:-10px; right:-90px;
+  z-index: 0;
+}
+.circle3:hover{
+  .Bdot2{
+    width:8px;
+    height:8px;
+    background:rgb(0, 0, 0);
+    border-radius:50%;
+    position:absolute;
+    top:160px; bottom:0; left:-250px;right:50px;
+    overflow:hidden;
+    margin:auto;
+    animation: Bdot2 0.5s linear 1 forwards ;
+   
+  }
+  
+  background-color: #dcdcdc;
+  border: 1px solid ;
+  border-color: #dcdcdc;
+  position: relative;
+  z-index: 5;
+}
+
+
+
+.circle4{
+  height: 250px;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top:0px; right:-152px;
+  z-index: 0;
+}
+.circle4:hover{
+  .Bdot{
+    width:8px;
+    height:8px;
+    background:rgb(0, 0, 0);
+    border-radius:50%;
+    position:absolute;
+    top:100px; bottom:0; left:-120px;right:50px;
+    overflow:hidden;
+    margin:auto;
+    animation: Bdot 0.3s linear 1 forwards ;
+   
+  }
+  
+  background-color: #f3f2f2;
+  border: 1px solid ;
+  border-color: #c7c7c7;
+  position: relative;
+  z-index: 5;
+
+}
+
+
+
+
+.circles{
+  position: absolute;
+  top: 150px; right:0px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #5920f6;
+  border-radius: 50%;
+  
+  position: relative;
+  top: 25px; right:-204px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: #5920f6;
+  border-radius: 50%;
+  
+  position: relative;
+  top: 335px; right:-45px;
+
+}
+.dot3 {
+  height: 15px;
+  width: 15px;
+  background-color: #5920f6;
+  border-radius: 50%;
+  
+  position: relative;
+  top: 415px; right:-55px;
+
+}
+
+
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+.product{
+  position: relative;
+  right:90px;top:19px;
+}
+
+
+
+
+
+@keyframes Bdot {
+  0% {
+      transform: rotate(0deg) 
+            translateY(125px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(50deg) 
+            translateY(125px) rotate(-360deg);
+  }
+}
+
+@keyframes Bdot1 {
+  0% {
+      transform: rotate(0deg) 
+            translateY(260px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(110deg) 
+            translateY(260px) rotate(-360deg);
+  }
+}
+
+@keyframes Bdot2 {
+  0% {
+      transform: rotate(0deg) 
+            translateY(213px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(90deg) 
+            translateY(213px) rotate(-360deg);
+  }
+}
+
+
+.textup{
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .circles {
+    position: relative;
+    top:80px /* Hide the circles on smaller screens */
   }
 }

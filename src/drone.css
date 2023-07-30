@@ -1,0 +1,11 @@
+.drone{
+    height: 90vh;
+    
+    width: 260px;
+    align-items: center;
+    justify-items: end;
+    
+    position: relative;
+    top: -0px;right:-9px;
+    
+}

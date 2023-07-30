@@ -1,0 +1,11 @@
+.potion{
+    height: 200px;
+    
+    width: 200px;
+    align-items: center;
+    justify-items: end;
+    
+    position: relative;
+    top: -350px;right:-150px;
+    
+}

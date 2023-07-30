@@ -1,0 +1,143 @@
+.card-container {
+    width:100%;
+    max-width: 700px;
+    overflow: hidden; /* Clear the float */
+  }
+  
+  .card {
+    font-family: monospace;
+    width: 100%;
+    max-width: 260px;
+    height: 150px;
+    background-color: #f0f0f0;
+    
+    border-radius: 30px;
+    padding: 20px;
+    
+    float: left; /* Float the cards to the left */
+    margin: 7px;
+    position: relative;
+    
+  }
+  .card2 {
+     
+    width: 100%;
+    max-width: 260px;
+    height: 150px;
+    background-color: #f0f0f0;
+    
+    border-radius: 30px;
+    padding: 20px;
+    
+    float: left; /* Float the cards to the left */
+    margin: 7px;
+    
+  }
+  .card3 {
+     
+    width: 100%;
+    max-width: 260px;
+    height: 150px;
+    background-color: #f0f0f0;
+    
+    border-radius: 30px;
+    padding: 20px;
+    
+    float: left; /* Float the cards to the left */
+    margin: 7px;
+    
+  }
+
+  .card4 {
+     
+    width: 100%;
+    max-width: 260px;
+    height: 150px;
+    background-color: #f0f0f0;
+    
+    border-radius: 30px;
+    padding: 20px;
+    
+    float: left; /* Float the cards to the left */
+    margin: 7px;
+    
+  }
+  
+  
+  
+  .container {
+    width: 100%; /* Set the container's width to 100% of its parent */
+    max-width: 800px; /* Set a maximum width for the container */
+    background-color: #f0f0f0; /* Set a background color for the container */
+     /* Add a border for visual distinction */
+    border-radius: 8px; /* Add rounded corners for a softer appearance */
+    padding: 20px; /* Add some padding inside the container */
+    z-index: 0;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .bold{
+    font-size: 50px;
+    height: 40%;
+    z-index: 0;
+  }
+
+  .content1{
+    width:130px;
+    
+    height:30vh;
+    color: #919191;
+    font-size: 15px;
+    font-weight:400;
+    display: flex;
+    position: relative;
+    top: -20px;
+    
+    
+  }
+
+  .content2{
+    width:150px;
+    
+    height:40vh;
+    color: #919191;
+    font-size: 15px;
+    font-weight:400;
+    display: flex;
+    position: relative;
+    
+    ;
+    
+  }
+
+  .computer1{
+    height: 250px;
+    position: relative;
+    top:-350px;right:-80px;
+    
+    ;
+  }
+
+  .computer2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -270px;right:-150px
+  }
+  
+  .computer3{
+    height: 190px;
+    width: 120px;
+    position: relative;
+    top: 0px;right:0px
+  }
+
+  .text{
+    width: 200px;
+    ;
+  }
+
+  

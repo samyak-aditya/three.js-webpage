@@ -1,0 +1,11 @@
+Model Information:
+* title:	Day#31: Spinning top
+* source:	https://sketchfab.com/3d-models/day31-spinning-top-d090504b2d994d7c812c14bc963afe90
+* author:	JuanG3D (https://sketchfab.com/juang3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Day#31: Spinning top" (https://sketchfab.com/3d-models/day31-spinning-top-d090504b2d994d7c812c14bc963afe90) by JuanG3D (https://sketchfab.com/juang3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
